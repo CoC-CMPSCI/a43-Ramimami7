@@ -15,5 +15,5 @@ int main()
 
 
     // Use the following statements to print output
-    cout << "The smallest number is  " << min << endl;
+    cout << "The smallest number is " << min << endl;
 }
