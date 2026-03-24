@@ -9,6 +9,14 @@ int main()
     cin >> num1 >> num2 >> num3;
 
     // TODO: Find the smallest value among three values
+    if (num1 < num2 && num1 < num3){
+        min = num1;
+    }  else if (num2 < num1 && num2 < num3){
+        min = num2;
+    }  else if (num3 < num2 && num1 < num1){
+        min = num3;
+    }
+
 
     // Use the following statements to print output
     cout << "The smallest number is  " << min << endl;
